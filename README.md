@@ -546,19 +546,19 @@ Commit your practice code.
 
 #####Practice:#####
 
-1. Create the needed components to allow the user create a new Movie.
+1. Create the needed components to allow the user create a new Track.
 
-2. Create the needed components to show a list of your favorite Movies.
+2. Create the needed components to show a list of your favorite Tracks.
 
-3. Create the needed components to allow the user edit a Movie.
+3. Create the needed components to allow the user edit a Track.
 
-4. Update the movie listing to allow the user delete movies.
+4. Update the track listing to allow the user delete tracks.
 
 5. Update the application to use ReactRouter and Flux.
 
 **Tips:**
 - First, try to think which should be your app structure (in terms of components).
-- Second, figure out which component should handle the movies.
+- Second, figure out which component should handle the tracks.
 - You should create a component when trying to create a view (a view is also a component).
 - To update the application with ReactRouter and Flux you may split out the add logic and the display logic into two views.
   Also you may provide the data storage (object) responsibility to Flux's storages.
