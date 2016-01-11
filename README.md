@@ -443,22 +443,22 @@ Commit your practice code.
 
 #####Practice:#####
 
-1. Write one Handlebars template to show the details of a movie (name, year, description or plot, genre, etc). Use [imdb](http://www.imdb.com/) or [Netflix](http://www.netflix.com/) for inspiration.
+1. Write one Handlebars template to show the details of a track (name, year, etc).
 
-2. Create a second template to render a list of movies.
+2. Create a second template to render a list of tracks.
 
-3. Using Backbone, create a movie listing with your favorite movies. Data shall be persisted in localhost.
+3. Using Backbone, create a track listing with your favorite tracks. Data shall be persisted in localhost.
 
-4. Show movie details in a separate details view.
+4. Show track details in a separate details view.
 
-5. Allow to add / edit / remove movies from the list.
+5. Allow to add / edit / remove tracks from the list.
 
 6. Add Jasmine tests for the different views and models.
 
 Tips:
-* Create a Model that represents a movie.
-* Create a Collection to represent a list of movies.
-* Create one view to render a movie, and another to render a list of movies.
+* Create a Model that represents a track.
+* Create a Collection to represent a list of tracks.
+* Create one view to render a track, and another to render a list of tracks.
 
 #####Key Points:#####
 
@@ -486,7 +486,7 @@ Commit your practice code.
 
 #####Practice:#####
 
-1. Create a track listing with your favorite movies. Data shall be persisted in localhost.
+1. Create a list with your favorite tracks. Data shall be persisted in localhost.
 
 2. Show track details in a separate details view.
 
