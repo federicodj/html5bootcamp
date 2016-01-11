@@ -304,7 +304,7 @@ Commit your practice code.
         </tr>
         <tr>
             <td>
-                + addObserver(event: String) <br />
+                + addObserver(event: String, observer: Object) <br />
                 + notify(event: String)
             </td>
         </tr>
@@ -316,9 +316,12 @@ Commit your practice code.
 
     ```js
     var droid = new Track();
+    var trackObserver = new TrackObserver([...]);
+
     droid.set('artist', 'Jordan Suckley');
     droid.set('title', 'Droid');
-    // ...
+    droid.addObserver(trackObserver);
+
     droid.play(); // console: Playing Droid...
     ```
 
@@ -336,7 +339,9 @@ Commit your practice code.
 
     ```js
     var droid = new Track();
+
     droid.set('title', 'Droid');
+
     // ...
     droid.share('V. Rivas'); // output: Sharing Droid with V. Rivas
     ```
