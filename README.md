@@ -373,35 +373,52 @@ There are three ways to write modules in JavaScript: AMD, CommonJS, and ES6 Modu
 
 #####Practice:#####
 
-1. Create a new directory for this topic, and add a package.json. Tip: use ```npm init```.
+1. Move into the topic folder and add a package.json file initializing the package. Tip: use ```npm init```.
 
 2. Install browserify globally in your environment. Tip: ```npm install -g browserify ```.
 
-3. Create the same Movie class as in the previous practice, but inside a CommonJS module. Tip: use ```module.exports```.
+3. Create the same Track class as in the previous practice, but inside a CommonJS module. Tip: use ```module.exports```.
 
-4. Create a Director class inside a module and set it as a dependency on the Movie module. Tip: use ```require```.
+4. Create an Artist class inside a module and set it as a dependency on the Track module. Tip: use ```require```.
 
-5. Create a movies.js file using browserify. Add that script to an index.html. Check that it works opening it in the browser.
+    <table>
+        <tr>
+            <td>Artist</td>
+        </tr>
+        <tr>
+            <td>
+                - name: String <br />
+                - awards: Array
+            </td>
+        </tr>
+        <tr>
+            <td>
+                + recognice()
+            </td>
+        </tr>
+    </table>
 
-6. Add name:string, a quotes:array properties, and a speak() method to Director; calling speak() will return director’s quotes.
+5. Create a file called app.js using browserify. Add that script to an index.html. Check that it works opening it in the browser.
 
-7. Add a Director to a Movie. Implement the following API:
+6. Add an Artist to a Track. Implement the following API:
 ```
-var alien = new Movie();
-var ridleyScott = new Director(‘Ridley Scott’);
-ridleyScott.set('quotes', ['Cast is everything.', 'Do what ...']);
-alien.set('director', ridleyScott);
-alien.get('director').speak(); //output: Ridley Scott says: 'Cast is...'
+var droid = new Track();
+var jordanSuckley = new Artist(‘Jordan Suckley’);
+
+jordanSuckley.set('awards', [...]);
+droid.set('artist', jordanSuckley);
+
+droid.get('artist').recognice(); //console: Jordan Suckley has the following awards: ...
 ```
 
 8. Add jQuery as a module.
 
-9. Using jQuery show Director quotes.
+9. Using jQuery show Artist awards.
 
 
 #####Key Points:#####
 
-2, 3
+1, 2, 3, 5
 
 #####Commit:#####
 
