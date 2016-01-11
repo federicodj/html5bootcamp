@@ -310,9 +310,9 @@ Commit your practice code.
         </tr>
     </table>
 
-3. Create a TrackObserver class that listens for multiple events.
+4. Create a TrackObserver class that listens for multiple events.
 
-4. Publish "*playing*" event on Track.play(). You should be able to do something like this in the console:
+5. Publish "*playing*" event on Track.play(). You should be able to do something like this in the console:
 
     ```js
     var droid = new Track();
@@ -322,17 +322,17 @@ Commit your practice code.
     droid.play(); // console: Playing Droid...
     ```
 
-5. Publish "*stopped*" event on Track.stop().
+6. Publish "*stopped*" event on Track.stop().
 
-6. Log to console when each event is fired.
+7. Log to console when each event is fired.
 
-7. Refactor Track class as a Module keeping your previous code for reference.
+8. Refactor Track class as a Module keeping your previous code for reference.
 
-8. Create a DownloadableTrack class that extends from Track adding a download method. Here you will have to set the correct `prototype` to DownloadableTrack.
+9. Create a DownloadableTrack class that extends from Track adding a download method. Here you will have to set the correct `prototype` to DownloadableTrack.
 
-9. Create a  mixin object called Social with the methods: share(friendName) and like().
+10. Create a  mixin object called Social with the methods: share(friendName) and like().
 
-10. Apply the mixin to Track class and play with the console output. You should be able to do something like this in the console:
+11. Apply the mixin to Track class and play with the console output. You should be able to do something like this in the console:
 
     ```js
     var droid = new Track();
@@ -341,13 +341,13 @@ Commit your practice code.
     droid.share('V. Rivas'); // output: Sharing Droid with V. Rivas
     ```
 
-11. Create an Artist class and create some artists from one of your favorite tracks.
+12. Create an Artist class and create some artists from one of your favorite tracks.
 
-12. Show how you would add an array of artists to a Track object.
+13. Show how you would add an array of artists to a Track object.
 
 #####Key Points:#####
 
-3, 4, 8, 10
+1, 3, 4, 8, 9
 
 #####Commit:#####
 
