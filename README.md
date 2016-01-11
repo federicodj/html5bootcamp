@@ -266,55 +266,84 @@ Commit your practice code.
 
 #####Practice:#####
 
-1. Create a Movie object:
+1. Create a Track class:
 
     <table>
         <tr>
-            <td>Movie</td>
+            <td>Track</td>
         </tr>
         <tr>
-            <td>-attributes : hashmap</td>
+            <td>
+                - title : String <br />
+                - artist : String <br />
+                - duration : Number
+            </td>
         </tr>
         <tr>
-            <td>+ play() <br />+ stop()<br />+ set(attr:string, value)<br />+ get(attr:string)</td>
+            <td>
+                + play() <br />
+                + stop() <br />
+                + set(attr: String, value) <br />
+                + get(attr: String)
+            </td>
         </tr>
     </table>
 
-2. Instantiate some of your favorite movies and play with them in the console.
+2. Instantiate some of your favorite tracks and play with them in the console.
 
-3. Add a MovieObserver class that listens for "*playing*" and “*stopped*” events.
+3. Create an Observable class which adds the logic to notify events to their listeners.
 
-4. Publish "*playing*" event on Movie.play(). You should be able to do something like this in the console:
+    <table>
+        <tr>
+            <td>Observable</td>
+        </tr>
+        <tr>
+            <td>
+                - observers : Array
+            </td>
+        </tr>
+        <tr>
+            <td>
+                + addObserver(event: String) <br />
+                + notify(event: String)
+            </td>
+        </tr>
+    </table>
+
+3. Create a TrackObserver class that listens for multiple events.
+
+4. Publish "*playing*" event on Track.play(). You should be able to do something like this in the console:
 
     ```js
-    var terminator = new Movie();
-    terminator.set('title', 'Terminator');
+    var droid = new Track();
+    droid.set('artist', 'Jordan Suckley');
+    droid.set('title', 'Droid');
     // ...
-    terminator.play(); // output: Playing Terminator...
+    droid.play(); // console: Playing Droid...
     ```
 
-5. Publish "*stopped*" event on Movie.stop().
+5. Publish "*stopped*" event on Track.stop().
 
 6. Log to console when each event is fired.
 
-7. Refactor Movie class as a Module keeping your previous code for reference.
+7. Refactor Track class as a Module keeping your previous code for reference.
 
-8. Create a DownloadableMovie that extends from Movie adding a download method. Here you will have to set the correct ```prototype``` to DownloadableMovie.
+8. Create a DownloadableTrack class that extends from Track adding a download method. Here you will have to set the correct `prototype` to DownloadableTrack.
 
 9. Create a  mixin object called Social with the methods: share(friendName) and like().
 
-10. Apply the mixin to Movie object and play with the console output. You should be able to do something like this in the console:
+10. Apply the mixin to Track class and play with the console output. You should be able to do something like this in the console:
 
     ```js
-    var ironman2 = new Movie();
-    ironman2.set('title', 'Iron Man 2');
+    var droid = new Track();
+    droid.set('title', 'Droid');
     // ...
-    ironman2.share('V. Rivas'); // output: Sharing Iron Man 2 with V. Rivas
+    droid.share('V. Rivas'); // output: Sharing Droid with V. Rivas
     ```
 
-11. Create an Actor class and create some actors from one of your favorite movies.
+11. Create an Artist class and create some artists from one of your favorite tracks.
 
-12. Show how you would add an array of actors to a Movie object.
+12. Show how you would add an array of artists to a Track object.
 
 #####Key Points:#####
 
