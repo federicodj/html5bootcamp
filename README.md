@@ -486,19 +486,19 @@ Commit your practice code.
 
 #####Practice:#####
 
-1. Create a movie listing with your favorite movies. Data shall be persisted in localhost.
+1. Create a track listing with your favorite movies. Data shall be persisted in localhost.
 
-2. Show movie details in a separate details view.
+2. Show track details in a separate details view.
 
-3. Allow to add / edit / remove movies from the list.
+3. Allow to add / edit / remove tracks from the list.
 
 4. Configure Karma and write tests for the controllers of your application.
 
 Tips:
 * Learn how to use ng-repeat (to render a list of movies).
 * Use [templateCache](https://docs.angularjs.org/api/ng/service/$templateCache) to access your templates.
-* Write a controller to add/edit/remove the movies. Create another controller to show details.
-* Use ng-router to access the movie listing as a default route. Create a route for the details view.
+* Write a controller to add/edit/remove the tracks. Create another controller to show details.
+* Use ng-router to access the tracks listing as a default route. Create a route for the details view.
 
 #####Key Points:#####
 
