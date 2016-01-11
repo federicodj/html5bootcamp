@@ -207,35 +207,34 @@ Now that you know which are the three pilars of a web application's UI, it's tim
 
 1. Open your IDE, create a new file text, save it as index.html. Add the correct doctype, and a few tags with random content. Add jQuery's latest version.
 
-2. Add a stylesheet to the index.html. Use the stylesheet to center the text of all ```section``` elements of the page.
+2. Add a stylesheet to the index.html. Create a sidebar positioned left, and a list positioned right.
 
-3. Add a hidden ```section``` with the following text inside: "Hello world".
+3. Add a hidden empty `section` on top of the created list.
 
-4. Add a button below the ```section``` to your index.html.
+4. Add a block with an input and a button middle aligned on top of the created `section`.
 
-5. When the page has finished loading the section must fade in.
+5. When the page has finished loading the focus should go to the created input.
 
-6. Add a textbox with the class "alias", and put the cursor inside it right after the ```section``` fades in.
+6. Attach an event to the created button which calls a function that gets a response from [http://bootcamp.aws.af.cm/welcome/yourname](http://bootcamp.aws.af.cm/welcome/yourname)
 
-7. Attach an event to the created button which calls a function that gets a response from [http://bootcamp.aws.af.cm/welcome/yourname](http://bootcamp.aws.af.cm/welcome/yourname)
+7. Write the response to the `section` element and fade it in.
 
-8. Write the response to the ```section``` element.
+8. Show ```section``` content in red when a server error occurs.
 
-9. Show ```section``` content in red when a server error occurs.
+9. Take some free air and then create a function to highlight your name in the server response content. Call it right after setting the response inside the div.
 
-10. Take some free air and then create a function to highlight your name in the server response content. Call it right after setting the response inside the div.
+10. When clicking the created button and using the input value as q parameter and 'track' as type parameter get the
+response from [https://api.spotify.com/v1/search](https://api.spotify.com/v1/search). First log the service response in
+Chrome's console and then display tracks into the previously created list. Each item must show the track name, artist and duration.
 
-11. AJAX: get the response from [https://api.spotify.com/v1/search](https://api.spotify.com/v1/search) with parameters data "q = 'Rolling Stones', type = 'album'"
-First log the service response in Chrome's console to analyze data (see provided link on Chrome console), then display albums inside another section in the right side of the screen. The ```article``` element must be used to contain the album data.
-For each album show: name, type, image, release_date, and a link to spotify for that album.
+11. When the button is clicked the hidden section must fade out if visible and then when the search success the section
+must fade in with the amount of founded tracks. Remove the previous logic of point 6 & 7.
 
-12. Add an input type="text", and reuse the code for exercise 11, so the user can perform search for any artist albums.
-
-13. Validate your page using W3C validator: [https://addons.mozilla.org/en-US/firefox/addon/web-developer/](https://addons.mozilla.org/en-US/firefox/addon/web-developer/)
+12. Validate your page using W3C validator: [https://addons.mozilla.org/en-US/firefox/addon/web-developer/](https://addons.mozilla.org/en-US/firefox/addon/web-developer/)
 
 #####Key Points:#####
 
-1, 5, 7, 11, 13
+1, 5, 7, 10, 12
 
 #####Mobile Test:#####
 
