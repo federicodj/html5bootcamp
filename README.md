@@ -18,13 +18,13 @@
 
 6. [Handling advanced Developers](#handling-advanced-developers)
 
-7. [Materials](#materials)
+7. [Tools](#tools)
 
 8. [General Guidelines](#general-guidelines)
 
 9. [Proposed Test Applications](#proposed-test-applications)
 
-10. [Environment Setup]
+10. [Environment Setup](#environment-setup)
 
 11. [Learning Days](#learning-days)
 
@@ -32,7 +32,7 @@
 
     * [Topic 1: JavaScript Intro and jQuery](#topic-1-javascript-intro-and-jquery)
 
-    * [Topic 2: OOP and Inheritance in JavaScript](#topic-2-design-patterns-and-oop-in-javascript-3-days)
+    * [Topic 2: Design Patterns and OOP in JavaScript](#topic-2-design-patterns-and-oop-in-javascript)
 
     * [Topic 3: NodeJS, NPM, and JavaScript Modules](#topic-3-nodejs-npm-and-javascript-modules)
 
@@ -62,13 +62,16 @@ The training will start at a low level, and does not require in depth knowledge 
 
 Five weeks total.
 
-Three weeks for guided learning and two weeks for app development.
+Four weeks for guided learning and one more weeks for app development.
 
 → [index](#index)
 
 ###Technical Assistance
 
-You can contact other bootcamp participants or any available tutor if you need technical assistance. We will create one chat for boot camp members only, and another one for boot camp members and tutors when boot camp starts.
+You can contact other bootcamp participants or any available tutor if you need technical assistance. 
+####Channels
+* Slack: bootcampmvd2016.slack.com sign in with your email account,you'll find several channels.
+* Hangout: We're going top use Gmail hangout to daily calls, so please be sure to have a headset (or mic) and a hangout account.
 
 ###Performance Measurement
 
@@ -87,21 +90,23 @@ Developers that move faster than average can go ahead and complete as much exerc
 
 ###Tools
 
-1. At least, three different browsers installed on the developer machine. Example, Chrome, Firefox, and the Android browser using Android's emulator.
+1. You can use your prefered browser however test the code in another one is desired. A plus is to use the Android browser using Android's emulator.
 
 2. The IDE to use is [SublimeText](http://www.sublimetext.com/).
 
-3. Skype Account + headset (audio calls)
+3. Hangout Account + headset (audio calls)
 
-4. Create your own[ GitHub](https://github.com/) account. Follow this[ guideline](https://help.github.com/articles/set-up-git) to setup your account.
+4. Slack for chat (general questions).
 
-5. Install your own NodeJS server.
+5. Create your own[ GitHub](https://github.com/) account. Follow this[ guideline](https://help.github.com/articles/set-up-git) to setup your account.
+
+6. Install your own NodeJS server. REVISIT!!!
   * Download [NodeJS](http://nodejs.org/)
   * Install `http-server` globally, by running `npm install -g http-server`
   * To start the server, from a command line interface, run `http-server` in the directory where you will clone the startup repo
   * Open your web browser and point to localhost:PORT (the `http-server` should have outputted the number of PORT you should use)
 
-6. Fork this repo [https://github.com/globant-ui/startup](https://github.com/globant-ui/startup) to use as a base to host the project code.
+7. Fork this repo [https://github.com/globant-ui/startup](https://github.com/globant-ui/startup) to use as a base to host the project code.
 
 → [index](#index)
 
@@ -111,25 +116,25 @@ Developers that move faster than average can go ahead and complete as much exerc
 
 The boot camp is organized in the following way:
 
-1. The first three weeks will be used for intensive self learning. Each topic will have reading and practices parts. Tutors will be available to answer technical questions on a given chat room.
+1. The first four weeks will be used for intensive self learning. Each topic will have reading and practices parts. Tutors will be available to answer technical questions on a given chat room.
 
-2. The next two weeks will be used to develop an application following a life process.
+2. The last fifth week will be used to develop an application following a life process. REVISIT!!!
 
-3. The project manager will coordinate learning days encouraging team communication in daily meetings.
+3. Tutors will coordinate learning days encouraging team communication in daily meetings.
 
-4. The project manager will gather information regarding individual progress so we can look for alternative assistance where needed.
+4. Tutors will gather information regarding individual progress so we can look for alternative assistance where needed.
 
-5. The project manager will lead the boot camp sprints as if it were a real project using SCRUM agile methodology.
+5. Tutors will lead the boot camp sprints as if it were a real project using SCRUM agile methodology.
 
 6. Two boot camp chats will be created for feedback and technical assistance:
 
-    1. Bootcamp HTML - ALL
-Every person participating in the bootcamp is present here (students, tutors and PMs). Here is the place to ask for technical assistance!
+	1. bootcamp-all - 
+	Every person participating in the bootcamp is present here (students and tutors). Here is the place to ask for technical assistance! we encourage to everyone to answer and tutors will look if that's correct or provide more accurate solution.
 
-    2. Bootcamp HTML - Assistants
-Here you will reach just your boot camp fellows for asking question sharing knowledge.
+	2. general - 
+	Here you will reach just your boot camp fellows for asking question sharing knowledge.
 
-7. Team play is encouraged but the work will be evaluated per person.
+7. Team play is highly encouraged but the work will be evaluated per person.
 
 8. Sprint duration will be 1 week.
 
@@ -145,6 +150,10 @@ Here you will reach just your boot camp fellows for asking question sharing know
 
 The test application will consist in a Last.fm client.
 
+###Environment Setup###
+
+Revisit
+
 ###Learning Days###
 
 Each day you will grab the fundamentals of the key building blocks for the next generation mobile apps; yeah, web apps! Web apps powered by the latest, and coolest toolkits, and techniques.
@@ -152,7 +161,7 @@ Each day you will grab the fundamentals of the key building blocks for the next 
 On each learning day you will have to:
 
 1. ####Read:####
-We will provide you with documentation related with current sprint content so you can have a background reference, guide and examples to complete the following practice.
+We provided you with documentation related with what we asked so you can have a background reference, guide and examples to complete the following practice.
 
 2. ####Practice:####
 You will implement the previously gathered knowledge in simple coding activities.
@@ -175,7 +184,9 @@ JavaScript is a programming language that runs in all Web Browsers. Using JavaSc
 
 Now that you know which are the three pilars of a web application's UI, it's time to dive into them.
 
-####[Topic 0: HTML & CSS Basics](https://github.com/globant-ui/css-lab)
+####[Topic 0: HTML & CSS Basics]####
+
+Follow this [link](https://github.com/globant-ui/css-lab)
 
 ####Topic 1: JavaScript Intro and jQuery####
 
@@ -183,15 +194,19 @@ Now that you know which are the three pilars of a web application's UI, it's tim
 
 1. Beginners: Eloquent JavaScript [basic tutorial](http://eloquentjavascript.net/) (in case you need it!)
 
-2. Beginners: Have fun with [Codecademy](http://www.codecademy.com/courses/jquery-and-the-dom) (more experienced devs might find it fun!).
+2. Using Chrome console to debug JavaScript [https://developer.chrome.com/devtools/docs/console](https://developer.chrome.com/devtools/docs/console)
 
-3. Recommended: [jQuery Fundamentals](http://jqfundamentals.com/)
+3. Beginners: Have fun with [Codecademy](http://www.codecademy.com/courses/jquery-and-the-dom) (more experienced devs might find it fun!).
 
-4. Explore [jQuery documentation](http://docs.jquery.com/Main_Page)
+4. JavaScript Prototypes: [http://www.slideshare.net/Dmitry.Baranovskiy/demystifying-prototypes-6183470](http://www.slideshare.net/Dmitry.Baranovskiy/demystifying-prototypes-6183470)
 
-5. JavaScript Prototypes: [http://www.slideshare.net/Dmitry.Baranovskiy/demystifying-prototypes-6183470](http://www.slideshare.net/Dmitry.Baranovskiy/demystifying-prototypes-6183470)
+5. Recommended: [jQuery Fundamentals](http://jqfundamentals.com/)
+
+6. Explore [jQuery documentation](http://docs.jquery.com/Main_Page)
 
 #####Extra documentation:#####
+
+This is more extensive but good to read, it will help you not only to accomplish bootcamp tasks but also it will be useful afterwards.
 
 * Web Platform Documentation Project: [http://www.webplatform.org/](http://www.webplatform.org/)
 
@@ -200,8 +215,6 @@ Now that you know which are the three pilars of a web application's UI, it's tim
 * Annotated ECMAScript 5.1: [http://es5.github.com/](http://es5.github.com/)
 
 * JSONP and CORS: [http://json-p.org/](http://json-p.org/) - [http://www.html5rocks.com/en/tutorials/cors/](http://www.html5rocks.com/en/tutorials/cors/)
-
-* Using Chrome console to debug JavaScript [https://developer.chrome.com/devtools/docs/console](https://developer.chrome.com/devtools/docs/console)
 
 #####Practice:#####
 
