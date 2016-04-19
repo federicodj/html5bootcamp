@@ -111,7 +111,7 @@ The boot camp is organized in the following way:
 
 1. The first four weeks will be used for intensive self learning. Each topic will have reading and practices parts. Tutors will be available to answer technical questions on a given chat room.
 
-2. The last fifth week will be used to develop an application following a life process. REVISIT!!!
+2. The last fifth week will be used to develop an application.
 
 3. Tutors will coordinate learning days encouraging team communication in daily meetings.
 
