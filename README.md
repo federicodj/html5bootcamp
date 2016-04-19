@@ -42,9 +42,9 @@
 
     * [Topic 6: UI - ReactJS](#topic-6-ui---reactjs)
 
-    * [Topic 7: HTML5 APIs](#topic-6-html5-apis---optional--)
+    * [Topic 7: HTML5 APIs](#topic-7-html5-apis---optional--)
 
-12. [Your First Project Starts Now!](#bookmark=id.605681dc8138)
+12. [Your First Project Starts Now!](#your-first-project-starts-now)
 
 ###Objective
 
@@ -100,16 +100,9 @@ Developers that move faster than average can go ahead and complete as much exerc
 
 5. Create your own[ GitHub](https://github.com/) account. Follow this[ guideline](https://help.github.com/articles/set-up-git) to setup your account.
 
-6. Install your own NodeJS server. REVISIT!!!
-  * Download [NodeJS](http://nodejs.org/)
-  * Install `http-server` globally, by running `npm install -g http-server`
-  * To start the server, from a command line interface, run `http-server` in the directory where you will clone the startup repo
-  * Open your web browser and point to localhost:PORT (the `http-server` should have outputted the number of PORT you should use)
-
-7. Fork this repo [https://github.com/globant-ui/startup](https://github.com/globant-ui/startup) to use as a base to host the project code.
+6. Fork this repo [https://github.com/globant-ui/startup](https://github.com/globant-ui/startup) to use as a base to host the project code.
 
 → [index](#index)
-
 
 
 ###General Guidelines
@@ -138,7 +131,7 @@ The boot camp is organized in the following way:
 
 8. Sprint duration will be 1 week.
 
-9. The instructions will be vague as they generally are in real life projects. You must look for support and guidance from your PM, teammates and tutors.
+9. The instructions will be vague as they generally are in real life projects. You must look for support and guidance from your teammates and tutors.
 
 10. All code and documentation must be in English.
 
@@ -152,20 +145,19 @@ The test application will consist in a Last.fm client.
 
 ###Environment Setup###
 
-Revisit
+No special configuration is required.
 
 ###Learning Days###
 
-Each day you will grab the fundamentals of the key building blocks for the next generation mobile apps; yeah, web apps! Web apps powered by the latest, and coolest toolkits, and techniques.
+Each day you will grab the fundamentals of the key building blocks for the next generation of apps; yeah, web apps! Web apps powered by the latest, and coolest toolkits, and techniques.
 
 On each learning day you will have to:
 
 1. ####Read:####
-We provided you with documentation related with what we asked so you can have a background reference, guide and examples to complete the following practice.
+We provided you with documentation related with what we asked so you can have a background reference, guide and examples to complete the following practice. 
 
 2. ####Practice:####
-You will implement the previously gathered knowledge in simple coding activities.
-Most important task numbers are listed in the "*Key Points*" section for each day and they should get most of your attention; if you feel you don’t have enough time to complete all tasks, start with these ones when possible.
+You will implement the previously gathered knowledge in simple coding activities on each topic, plus you'll have to code what's required by tutors. On each sprint you'll see exercices and we also will ask you to do other work for the final project.
 
 3. ####Commit:####
 You will commit all your code on a daily basis, when you finish your practice.
@@ -246,16 +238,6 @@ For each album show: name, type, image, release_date, and a link to spotify for 
 
 13. Validate your page using W3C validator: [https://addons.mozilla.org/en-US/firefox/addon/web-developer/](https://addons.mozilla.org/en-US/firefox/addon/web-developer/)
 
-#####Key Points:#####
-
-1, 5, 7, 11, 13
-
-#####Mobile Test:#####
-
-Test your code in a mobile device or in Android emulator.
-
-Hint: A good option to test your code in a mobile device is to use Genimotion Android Emulator [http://www.genymotion.com/], which is one of the most fast and easy mobile emulators to install.
-
 #####Commit:#####
 
 Commit your practice code.
@@ -270,7 +252,7 @@ Commit your practice code.
 
 2. Understand JavaScript OO: [http://javascriptissexy.com/oop-in-javascript-what-you-need-to-know/](http://javascriptissexy.com/oop-in-javascript-what-you-need-to-know/)
 
-3. Read [this](http://addyosmani.com/resources/essentialjsdesignpatterns/book/) article about JavaScript design patterns by Addy Osmani
+3. Read [this](http://addyosmani.com/resources/essentialjsdesignpatterns/book/) article about JavaScript design patterns by Addy Osmani; focus on Namespace and Module pattern (there are too many).
 
 #####Extra documentation:#####
 
@@ -330,10 +312,6 @@ Commit your practice code.
 
 12. Show how you would add an array of actors to a Movie object.
 
-#####Key Points:#####
-
-3, 4, 8, 10
-
 #####Commit:#####
 
 Commit your practice code.
@@ -378,11 +356,6 @@ alien.get('director').speak(); //output: Ridley Scott says: 'Cast is...'
 
 9. Using jQuery show Director quotes.
 
-
-#####Key Points:#####
-
-2, 3
-
 #####Commit:#####
 
 Commit your practice code.
@@ -423,10 +396,6 @@ Tips:
 * Create a Collection to represent a list of movies.
 * Create one view to render a movie, and another to render a list of movies.
 
-#####Key Points:#####
-
-1, 2, 3
-
 #####Commit:#####
 
 Commit your practice code.
@@ -462,14 +431,6 @@ Tips:
 * Use [templateCache](https://docs.angularjs.org/api/ng/service/$templateCache) to access your templates.
 * Write a controller to add/edit/remove the movies. Create another controller to show details.
 * Use ng-router to access the movie listing as a default route. Create a route for the details view.
-
-#####Key Points:#####
-
-1, 2, 3
-
-#####Mobile Test:#####
-
-Test your code in a mobile device or in Android emulator.
 
 #####Commit:#####
 
@@ -526,14 +487,6 @@ Commit your practice code.
 - To update the application with ReactRouter and Flux you may split out the add logic and the display logic into two views.
   Also you may provide the data storage (object) responsibility to Flux's storages.
 
-#####Key Points:#####
-
-1, 2, 4.
-
-#####Mobile Test:#####
-
-Test your code in a mobile device or in Android emulator.
-
 #####Commit:#####
 
 Commit your practice code.
@@ -576,10 +529,6 @@ Commit your practice code.
 
 7. Create a web page with a SVG element to show a vector graphic. Make sure you understand when is better to use SVG instead of bitmaps, and viceversa.
 
-#####Key Points:#####
-
-1, 3, 6
-
 #####Commit:#####
 
 Commit your practice code.
@@ -590,16 +539,11 @@ Commit your practice code.
 
 ####It’s time for the real thing.####
 
-You will work on a project to achieve a fully working multi platform mobile app developed in JavaScript and using the latest tags and APIs available in HTML5.
+You will work on a project to achieve a fully working app developed in JavaScript and using the latest tags and APIs available in HTML5.
 
 You will apply all the knowledge obtained during the learning weeks.
 
-You’ll be given with a backlog of user stories you will estimate with your PM.
-
-Once estimated, user stories will be divided into sprints of one week.
-
-You will participate on daily scrum meetings.
-Will you be able to consult documentation? Of course! You will be able to use any resource you know that helps you complete your user stories, be it going back to documentation sites, tutorials or just googling what you need. Luckily the web is plenty of awesome resources waiting for you to grasp them!
+Will you be able to consult documentation? Of course! You will be able to use any resource you know that helps you complete your tasks, be it going back to documentation sites, tutorials or just googling what you need. Luckily the web is plenty of awesome resources waiting for you to grasp them!
 
 ####Commits####
 
