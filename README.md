@@ -323,11 +323,14 @@ There are three ways to write modules in JavaScript: AMD, CommonJS, and ES6 Modu
 
 #####Reading:#####
 
-1. For a good introduction to JavaScript Modules [Modules::Eloquent JavaScript](http://eloquentjavascript.net/10_modules.html)
+1. [Oficial documentatoin](https://nodejs.org/en/docs/)
+2. [Node tutorial](http://www.tutorialspoint.com/nodejs/)
+3. [List of useful nodejs modules](https://www.codementor.io/nodejs/tutorial/list-of-useful-nodejs-modules)
+4. For a good introduction to JavaScript Modules [Modules::Eloquent JavaScript](http://eloquentjavascript.net/10_modules.html)
 
-2. Read about AMD, CommonJS, and ES6 Modules [Writing Modular JavaScript](http://addyosmani.com/blog/writing-modular-javascript/)
-
-3. Read on how to use Browserify [Browserify Handbook](https://github.com/substack/browserify-handbook)
+#####Extra documentation:#####
+1. Read about AMD, CommonJS, and ES6 Modules [Writing Modular JavaScript](http://addyosmani.com/blog/writing-modular-javascript/)
+2. Read on how to use Browserify [Browserify Handbook](https://github.com/substack/browserify-handbook)
 
 #####Practice:#####
 
