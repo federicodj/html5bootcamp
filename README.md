@@ -323,7 +323,7 @@ There are three ways to write modules in JavaScript: AMD, CommonJS, and ES6 Modu
 
 #####Reading:#####
 
-1. [Oficial documentatoin](https://nodejs.org/en/docs/)
+1. [Oficial documentation](https://nodejs.org/en/docs/)
 2. [Node tutorial](http://www.tutorialspoint.com/nodejs/)
 3. [List of useful nodejs modules](https://www.codementor.io/nodejs/tutorial/list-of-useful-nodejs-modules)
 4. For a good introduction to JavaScript Modules [Modules::Eloquent JavaScript](http://eloquentjavascript.net/10_modules.html)
